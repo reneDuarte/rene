@@ -4,3 +4,7 @@ github.is_project_page : false
 title : Renê Celestino Duarte
 descrição : Currículo
 theme: jekyll-theme-cayman
+
+<script>
+document.querySelector('a').style.display = 'none'
+</script>  
