@@ -11,7 +11,7 @@ function servOculta(id){
         servOculta(id);
       }
          
-    } , 10);
+    } , 1);
 }
 
 servOculta('a');
