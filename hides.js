@@ -1,7 +1,5 @@
 document.querySelector('a').style.display = 'none';
 
-document.querySelector('.site-footer-owner').style.display = 'none'
-
 function ocultar(id){
    if( document.querySelector(id)){
         document.querySelector(id).style.display = 'none'; 
@@ -9,9 +7,9 @@ function ocultar(id){
     
     return  document.querySelector(id).style.display == 'none';
 }
-function serv(){
+function serv(id){
   setTimeout(function(){  
-      var ocultou = ocultar('.site-footer-owner')
+      var ocultou = ocultar(id)
       if( !ocultou ){
         serv();
       }
@@ -20,5 +18,5 @@ function serv(){
 
 }
 
-serv();
+serv('.site-footer-owner');
 
