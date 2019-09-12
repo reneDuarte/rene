@@ -1,4 +1,4 @@
-show_downloads : false
+show_downloads : true
 title : Renê Celestino Duarte
 descrição : Currículo
 theme: jekyll-theme-cayman
