@@ -15,6 +15,6 @@ function servOculta(id){
 }
 
 servOculta('footer');
-//servOculta('.site-footer-owner');
+servOculta('.view');
 //servOculta('.site-footer-credits');
 
