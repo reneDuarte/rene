@@ -2,5 +2,5 @@ show_downloads : false
 site.github.is_project_page : false
 github.is_project_page : false
 title : Renê Celestino Duarte
-descrição : Currículo
+descrição : Teste
 theme: jekyll-theme-cayman
