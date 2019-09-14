@@ -14,7 +14,6 @@ function servOculta(id){
     } , 1);
 }
 
-servOculta('footer');
-servOculta('.view');
-//servOculta('.site-footer-credits');
-
+servOculta('a');
+servOculta('.site-footer-owner');
+servOculta('.site-footer-credits');
