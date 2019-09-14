@@ -3,4 +3,4 @@ site.github.is_project_page : false
 github.is_project_page : false
 title : Renê Celestino Duarte
 descrição : Teste
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
